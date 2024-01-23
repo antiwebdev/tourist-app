@@ -1,0 +1,79 @@
+form {
+    max-width: 500px; /* Adjust as needed */
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+    min-height: 100px; /* Set a minimum height for textarea */
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the button on hover and focus */
+  button[type="submit"]:hover,
+  button[type="submit"]:focus {
+    background-color: #0056b3; /* Hover/focus background color */
+  }
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../../images/cathedral.webp');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255); /* Text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Тень для текста */
+    text-align: center;
+
+}
+
+.contact-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px; /* Adjust as needed */
+}
+
+.contact-container p {
+    font-size: 1rem;
+    max-width: 600px; /* Adjust as needed */
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+

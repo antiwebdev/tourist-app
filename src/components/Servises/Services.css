@@ -1,0 +1,32 @@
+.services-container {
+  display: flex;
+  width: 100vw;  /* Ширина экрана */
+  height: 100vh; /* Высота экрана */
+  overflow: hidden;
+}
+
+.service-item {
+  flex: 1;
+  background-size: auto 100%; /* Задаём размер фона так, чтобы он был обрезан по бокам */
+  background-position: center;
+  transition: flex-grow 0.3s ease, background-size 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-name {
+    color: white; /* Цвет текста */
+    font-size: 32px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Тень для текста */
+    padding: 10px; /* Отступы вокруг текста */
+    background-color: rgba(0, 0, 0, 0.1); /* Небольшой фон за текстом для лучшей читаемости */
+    border-radius: 5px; /* Скругление углов фона */
+}
+
+.service-item:hover {
+  flex-grow: 3; /* Увеличиваем блок при наведении */
+  background-size: cover; /* Полностью показываем изображение */
+  cursor: pointer;
+}
